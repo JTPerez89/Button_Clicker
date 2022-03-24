@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-width: 1200px;
+    padding: 0px 40px;
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(122, 122, 122, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav input {
+    width: 40%;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.nav button {
+    background-color: rgba(3, 117, 247, 0.829);
+    color: whitesmoke;
+    width: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.columnFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topBox {
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.leftTopBox {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightTopBox {
+    padding: 20px 20px 20px 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.botBox {
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.leftBotBox {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightBotBox {
+    padding: 20px 20px 20px 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.rCTop {
+    width: 300px;
+    height: 125px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.rCTopText {
+    font-size: 24px;
+}
+
+.rCTop button {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    background-color: rgba(95, 161, 95, 0.788);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.btn {
+    width: 90px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+h2 {
+    font-size: 30pxpx;
+    margin: 5px 0px;
+}
+
+a {
+    color: blue;
+}
+
+.widthSpacer {
+    margin: 0px 10px;
+}
+
+.heightSpacer {
+    margin: 20px 0px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.textSpace {
+    font-size: 18px;
+    margin: 5px 0px;
+}
