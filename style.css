@@ -5,13 +5,13 @@
 
 body {
     max-width: 1200px;
+    margin: auto;
     padding: 0px 40px;
     font-family: sans-serif;
 }
 
 .nav {
-    width: 100%;
-    height: 70px;
+    padding: 10px 0px;
     background-color: rgba(122, 122, 122, 0.575);
     display: flex;
     align-items: center;
@@ -38,16 +38,13 @@ body {
 }
 
 .topBox {
-    width: 100%;
-    height: 200px;
     border: 3px solid black;
     padding: 10px;
     display: flex;
     align-items: center;
 }
 
-.leftTopBox {
-    width: 25%;
+.leftBox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,19 +56,14 @@ body {
     font-size: 18px;
 }
 
+.inlineB {
+    display: inline-block;
+}
+
 .botBox {
-    width: 100%;
-    height: 200px;
     border: 3px solid black;
     padding: 10px;
     display: flex;
-    align-items: center;
-}
-
-.leftBotBox {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
